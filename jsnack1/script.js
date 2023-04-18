@@ -8,7 +8,8 @@ FINE SE
 
 const randomNumbers = [''];
 
-const number = parseInt(prompt('Dammi un numero:'));
-
-for (let i = number;  )
+for (let i = 0; i < 6 ; i++ ) {
+    const number = parseInt(prompt('Dammi un numero:'));
+    console.log(number)
+}
 
