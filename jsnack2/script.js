@@ -13,13 +13,17 @@ const randomSurnames = ['Spada', 'Rossi', 'Vinci', 'Ferro', 'Campo'];
 
 const randomInvented = [];
 
-const randomNumberNames = Math.floor(Math.random() * (4 - 0 + 1) ) + 0;
-console.log(randomNumberNames);
-
-const randomNumberSurnames = Math.floor(Math.random() * (4 - 0 + 1) ) + 0;
-console.log(randomNumberSurnames);
 
 for (let i = 0; i < randomNames.length; i++) {
+    const randomNumberNames = Math.floor(Math.random() * 5);
+    console.log(randomNumberNames);
     
+    const randomNumberSurnames = Math.floor(Math.random() * 5);
+    console.log(randomNumberSurnames);
+    
+
+    randomNames[randomNumberNames];
+
+    randomSurnames[randomNumberSurnames];
 }
 
