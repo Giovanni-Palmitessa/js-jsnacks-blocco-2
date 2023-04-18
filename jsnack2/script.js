@@ -16,14 +16,13 @@ const randomInvented = [];
 
 for (let i = 0; i < randomNames.length; i++) {
     const randomNumberNames = Math.floor(Math.random() * 5);
-    console.log(randomNumberNames);
     
     const randomNumberSurnames = Math.floor(Math.random() * 5);
-    console.log(randomNumberSurnames);
     
-
     randomNames[randomNumberNames];
 
     randomSurnames[randomNumberSurnames];
+
+    console.log(randomNames[randomNumberNames] + ' ' + randomSurnames[randomNumberSurnames])
 }
 
