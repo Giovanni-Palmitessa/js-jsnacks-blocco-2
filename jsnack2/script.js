@@ -11,5 +11,5 @@ const randomSurnames = ['Spada', 'Rossi', 'Vinci', 'Ferro', 'Campo'];
 
 const randomInvented = [];
 
-const randomInvited = Math.floor(Math.random() * (randomNames[5] - randomNames[0] + 1) ) + randomNames[0];
+const randomInvited = Math.floor(Math.random() * (4 - 0 + 1) ) + 0;
 console.log(randomInvited);
