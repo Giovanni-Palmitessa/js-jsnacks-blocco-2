@@ -13,10 +13,9 @@ for (let i = 0; i < 6 ; i++ ) {
     
 
     if (number % 2 == 0) {
-        
+        console.log(number);
     } else {
-        randomNumbers.push(number)
-        console.log(number)
+        randomNumbers.push(number);
     }
 }
 
