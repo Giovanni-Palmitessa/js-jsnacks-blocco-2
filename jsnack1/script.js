@@ -5,3 +5,5 @@ SE numero dispari
     inserisci nell'array
 FINE SE
 */
+
+const randomNumbers = [''];
