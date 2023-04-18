@@ -6,10 +6,17 @@ SE numero dispari
 FINE SE
 */
 
-const randomNumbers = [''];
+const randomNumbers = [];
 
 for (let i = 0; i < 6 ; i++ ) {
     const number = parseInt(prompt('Dammi un numero:'));
-    console.log(number)
+    
+
+    if (number % 2 == 0) {
+        
+    } else {
+        randomNumbers.push(number)
+        console.log(number)
+    }
 }
 
