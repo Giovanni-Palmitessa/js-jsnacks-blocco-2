@@ -13,14 +13,16 @@ const randomSurnames = ['Spada', 'Rossi', 'Vinci', 'Ferro', 'Campo'];
 
 const randomInvented = [];
 
-
 for (let i = 0; i < randomNames.length; i++) {
     const randomNumberNames = Math.floor(Math.random() * 5);
     
     const randomNumberSurnames = Math.floor(Math.random() * 5);
 
-    console.log(randomNames[randomNumberNames] + ' ' + randomSurnames[randomNumberSurnames])
+    randomInvented.push(randomNames[randomNumberNames] + ' ' + randomSurnames[randomNumberSurnames]);
+   
+    document.querySelector('.list').innerHTML = `La lista degli invitati è: ${randomInvented}`;
 
-    document.querySelector('.list').innerHTML = `La lista degli invitati è ${randomNames[randomNumberNames]} ${randomSurnames[randomNumberSurnames]}`
+    console.log(randomNames[randomNumberNames] + ' ' + randomSurnames[randomNumberSurnames]); 
 }
+
 
