@@ -17,5 +17,7 @@ for (let i = 0; i < 6 ; i++ ) {
     } else {
         randomNumbers.push(number);
     }
+
+    document.querySelector('.numeri').innerHTML = `I numeri dispari scelti sono: ${randomNumbers}`;
 }
 
