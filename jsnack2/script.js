@@ -18,11 +18,9 @@ for (let i = 0; i < randomNames.length; i++) {
     const randomNumberNames = Math.floor(Math.random() * 5);
     
     const randomNumberSurnames = Math.floor(Math.random() * 5);
-    
-    randomNames[randomNumberNames];
-
-    randomSurnames[randomNumberSurnames];
 
     console.log(randomNames[randomNumberNames] + ' ' + randomSurnames[randomNumberSurnames])
+
+    document.querySelector('.list').innerHTML = `La lista degli invitati è ${randomNames[randomNumberNames]} ${randomSurnames[randomNumberSurnames]}`
 }
 
